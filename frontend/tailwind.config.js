@@ -5,9 +5,10 @@
 /** @type {TailwindConfig} */
 module.exports = {
   purge: [
-    './pages/**/*.{js,ts,jsx,tsx}',
-    './components/**/*.{js,ts,jsx,tsx}',
-    './app/**/*.{js,ts,jsx,tsx}',
+    './src/pages/**/*.{js,ts,jsx,tsx}',
+    './src/pages/products/**/*.{js,ts,jsx,tsx}',
+    './src/app/products/presentation/components/**/*.{js,ts,jsx,tsx}',
+    './src/app/products/presentation/pages/**/*.{js,ts,jsx,tsx}',
   ],
   darkMode: false,
   theme: {
