@@ -12,7 +12,7 @@ export const ProductCard: React.FC<Props> = ({ imageUrl, title, type }) => {
         <div className="product-card font-montserrat">
             <div className="product-image">
                 <div className="my-2 mx-4">
-                    <Image src={imageUrl} width={248} height={248} alt={title} />
+                    <Image blurDataURL='/images/1.png' placeholder="blur" src={imageUrl} width={248} height={248} alt={title} />
                 </div>
             </div>
             <div className="product-info flex flex-row mx-4">
